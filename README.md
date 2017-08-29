@@ -8,7 +8,10 @@ Tested and confirmed on STM32F103C8T6, STM32F103RBT6
 Display connection:
 
 D0/SCK - PB13
+
 D1/MOSI - PB15
+
 CS - PB12
+
 DC - PB14
 
