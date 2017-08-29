@@ -1,47 +1,68 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+# A .gitignore for Keil projects.
+# Taken mostly from http://www.keil.com/support/man/docs/uv4/uv4_b_filetypes.htm
 
-# Folder config file
-Desktop.ini
+# User-specific uVision files
+*.opt
+*.uvopt
+*.uvoptx
+*.uvgui
+*.uvguix.*
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# Listing files
+*.cod
+*.htm
+*.i
+*.lst
+*.map
+*.m51
+*.m66
+*.scr  	# define exception below if needed
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# Object and HEX files
+*.axf
+*.b[0-3][0-9]
+*.hex
+*.d
+*.crf
+*.elf
+*.hex
+*.h86
+*.lib
+*.obj
+*.o
+*.sbr
 
-# Windows shortcuts
-*.lnk
+# Build files
+*.bat  	# define exception below if needed
+*._ia
+*.__i
+*._ii
 
-# =========================
-# Operating System Files
-# =========================
+# Debugger files
+*.ini  	# define exception below if needed
 
-# OSX
-# =========================
+# Other files
+*.build_log.htm
+*.cdb
+*.dep
+*.ic
+*.lin
+*.lnp
+*.orc
+*.pack 	# define exception below if needed
+*.pdsc 	# define exception below if needed
+*.plg
+*.sct  	# define exception below if needed
+*.sfd
+*.sfr
 
-.DS_Store
-.AppleDouble
-.LSOverride
+# Miscellaneous
+*.tra
+*.bin
+*.fed
+*.l1p
+*.l2p
+*.iex
 
-# Thumbnails
-._*
-
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# To explicitly override the above, define any exceptions here; e.g.:
+# !my_customized_scatter_file.sct
