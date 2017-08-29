@@ -11,3 +11,5 @@ Display connection:
 - CS - PB12
 - DC - PB14
 
+![STM32F103C8T6](https://github.com/vadzimyatskevich/STM32F103_SSD1306/blob/master/img/IMG_20170829_114946.jpg)
+![STM32F103RBT6](STM32F103_SSD1306/img/IMG_20170829_120207.jpg)
